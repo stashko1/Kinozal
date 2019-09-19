@@ -1,0 +1,18 @@
+.footer {
+  padding-bottom: 20px;
+  background-color: #222222;
+  color: #eee;
+  &-list {
+    padding-left: 0;
+    li {
+      list-style-type: none;
+    }
+    a {
+      color: #777;
+      transition: all 0s;
+      &:hover {
+        color: #eee;
+      }
+    }
+  }
+}
